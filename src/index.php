@@ -1,5 +1,4 @@
 <?php
 	
-	$html = file_get_contents('https://htmlweb.ru/php/php_curl.php');
+	$ch = curl_init('https://yandex.ru/pogoda/saint-petersburg');
 	
-	echo $html;
